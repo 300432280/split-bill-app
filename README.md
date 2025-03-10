@@ -1,59 +1,56 @@
 # Split Bill App
 
-A web application for tracking expenses and splitting bills equally among friends.
+A responsive web application for tracking expenses and splitting bills equally among friends, roommates, or groups.
 
 ## Features
 
-- **Add Participants**: Add people who are part of the expenses
-- **Track Expenses**: Record who paid for what
-- **Equal Split**: Automatically calculates how much each person should pay
-- **Settlement Plan**: Shows the optimal way to settle debts between participants
+- **People Management**: Add and manage multiple people in your group
+- **Expense Tracking**: Record who paid for what
+- **Equal Split Calculation**: Automatically calculates how much each person should pay based on equal splitting
+- **Settlement Plans**: Shows exactly who should pay whom to settle all debts with minimal transactions
 - **Responsive Design**: Works on both mobile and desktop devices
 
 ## Technologies Used
 
-- React
+- React 18+
 - TypeScript
 - Tailwind CSS
 - Vite
 
-## Getting Started
+## Installation and Setup
 
-### Prerequisites
-- Node.js (v14+)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/300432280/split-bill-app.git
+1. Clone the repository:
    ```
-
-2. Navigate to the project directory
-   ```bash
+   git clone https://github.com/yourusername/split-bill-app.git
    cd split-bill-app
    ```
 
-3. Install dependencies
-   ```bash
+2. Install dependencies:
+   ```
    npm install
    ```
 
-4. Start the development server
-   ```bash
+3. Run the development server:
+   ```
    npm run dev
    ```
 
-5. Open http://localhost:5175 in your browser
+4. Build for production:
+   ```
+   npm run build
+   ```
 
 ## How to Use
 
-1. Add people to your group using the "Add Person" form
-2. Record expenses by selecting who paid and entering the amount
-3. View the current balances to see who owes what
-4. Check the "How to Settle" section for the optimal way to settle all debts
+1. Add people who are part of the expense splitting group
+2. Record expenses, specifying who paid and how much
+3. View the calculated balances showing who owes or is owed money
+4. Follow the settlement suggestions to equalize all expenses
 
 ## License
 
-This project is licensed under the MIT License.
+MIT
+
+## Contact
+
+If you have any questions or suggestions, please feel free to reach out!
